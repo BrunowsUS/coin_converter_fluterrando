@@ -3,8 +3,7 @@ class CurrencyModel {
   final double real;
   final double euro;
   final double dollar;
-
-  CurrencyModel(this.name, this.real, this.euro, this.dollar);
+  const CurrencyModel(this.name, this.real, this.euro, this.dollar);
 
   static List<CurrencyModel> getCurrencies() {
     return <CurrencyModel>[

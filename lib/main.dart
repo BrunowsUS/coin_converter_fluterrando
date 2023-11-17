@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'app/views/HomeView.dart';
+import 'app/views/home_view.dart';
 
 main() {
   runApp(AppWidget());
